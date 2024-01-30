@@ -1,0 +1,31 @@
+{
+  "name": "pacote-kallil-teste-tce",
+  "version": "1.0.8",
+  "description": "Um exemplo de pacote para Next.js",
+  "main": "src/meu-componente.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "keywords": [
+    "next.js",
+    "componente",
+    "pacote"
+  ],
+  "author": "kallil",
+  "files": [
+    "src",
+    "components",
+    "meu-componente.tsx",
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^21.6.1",
+    "@types/react": "^18",
+    "typescript": "^5.3.3",
+    "tailwindcss": "^3"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
